@@ -43,7 +43,7 @@ setup(
         'experimental': [],
         'models': [
             'robustness_metrics @ git+https://github.com/google-research/robustness_metrics.git#egg=robustness_metrics',
-            'tf-models-nightly',  # Needed for BERT, depends on tf-nightly.
+            #'tf-models-nightly',  # Needed for BERT, depends on tf-nightly.
             'tensorflow-probability',
             'edward2 @ git+https://github.com/google/edward2.git#egg=edward2', #[tf-nightly]
             'pandas',
